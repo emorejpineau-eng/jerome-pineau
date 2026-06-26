@@ -278,7 +278,7 @@ display:none;
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-    gap: 25px;
+    gap: 25px;padding: 20;px;
 }
 
 .project-card {
@@ -367,6 +367,7 @@ body.light-mode {
     --text: #111111;
     --card: rgba(255,255,255,0.8);
 }
+
 
 #theme-toggle {
     position: fixed;

@@ -1,0 +1,40 @@
+.expertise-grid{
+    max-width:1400px;
+    margin:70px auto 0;
+    padding:0 40px;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:35px;
+}
+
+.cards{
+
+    min-height:240px;
+
+    padding:35px;
+
+    border-radius:22px;
+
+    background:rgba(255,255,255,.03);
+
+    border:1px solid rgba(0,212,255,.20);
+
+    backdrop-filter:blur(10px);
+
+    transition:.35s;
+
+}
+
+.cards:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#00d4ff;
+
+    box-shadow:
+    0 0 25px rgba(0,212,255,.30);
+
+}
