@@ -214,3 +214,18 @@ display:none;
 }
 
 }
+
+nav a{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ffffff;
+    transition: .3s ease;
+}
+
+nav a:hover{
+    color:#18d4ff;
+    text-shadow:0 0 12px rgba(24,212,255,.7);
+}
