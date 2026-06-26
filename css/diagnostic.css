@@ -1,0 +1,344 @@
+/* ============================
+   DIAGNOSTIC PME - Jerome Pineau
+=============================*/
+
+:root{
+
+--primary:#0A84FF;
+--secondary:#1E40FF;
+--dark:#08131F;
+--card:rgba(255,255,255,.05);
+--border:rgba(255,255,255,.08);
+--text:#ffffff;
+--muted:#B9C5D8;
+
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+
+background:
+radial-gradient(circle at top,#14386d 0%,#08131F 60%);
+font-family:'Inter',sans-serif;
+color:var(--text);
+
+}
+
+
+/* HERO */
+
+.dp-hero{
+
+max-width:1200px;
+margin:auto;
+padding:120px 30px;
+text-align:center;
+
+}
+
+.dp-hero h1{
+
+font-size:58px;
+font-weight:800;
+line-height:1.1;
+
+background:linear-gradient(90deg,#fff,#38BDF8,#0A84FF);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+
+margin-bottom:20px;
+
+}
+
+.dp-hero p{
+
+font-size:22px;
+color:var(--muted);
+max-width:800px;
+margin:auto auto 40px;
+
+}
+
+
+/* Bouton */
+
+.dp-btn{
+
+display:inline-block;
+
+padding:18px 42px;
+
+background:linear-gradient(135deg,#0A84FF,#1E40FF);
+
+color:#fff;
+
+border-radius:60px;
+
+font-weight:700;
+
+text-decoration:none;
+
+transition:.35s;
+
+box-shadow:0 15px 40px rgba(0,120,255,.35);
+
+}
+
+.dp-btn:hover{
+
+transform:translateY(-5px);
+
+box-shadow:0 25px 55px rgba(0,120,255,.55);
+
+}
+
+
+/* CARDS */
+
+.dp-cards{
+
+max-width:1200px;
+
+margin:70px auto;
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:35px;
+
+padding:0 25px;
+
+}
+
+.dp-card{
+
+background:var(--card);
+
+backdrop-filter:blur(16px);
+
+border:1px solid var(--border);
+
+padding:45px;
+
+border-radius:24px;
+
+transition:.35s;
+
+}
+
+.dp-card:hover{
+
+transform:translateY(-10px);
+
+border-color:#0A84FF;
+
+box-shadow:0 20px 45px rgba(0,140,255,.20);
+
+}
+
+.dp-card h3{
+
+font-size:28px;
+
+margin-bottom:18px;
+
+color:#38BDF8;
+
+}
+
+.dp-card p{
+
+line-height:1.8;
+
+color:var(--muted);
+
+}
+
+
+/* BENEFITS */
+
+.dp-benefits{
+
+max-width:950px;
+
+margin:90px auto;
+
+background:rgba(255,255,255,.04);
+
+padding:60px;
+
+border-radius:28px;
+
+border:1px solid var(--border);
+
+}
+
+.dp-benefits h2{
+
+font-size:42px;
+
+margin-bottom:30px;
+
+text-align:center;
+
+}
+
+.dp-benefits ul{
+
+list-style:none;
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+gap:20px;
+
+}
+
+.dp-benefits li{
+
+font-size:20px;
+
+padding:18px;
+
+background:rgba(255,255,255,.03);
+
+border-radius:14px;
+
+}
+
+
+/* OFFRE */
+
+.dp-offer{
+
+max-width:850px;
+
+margin:90px auto 120px;
+
+text-align:center;
+
+padding:70px;
+
+background:linear-gradient(135deg,#0A84FF,#071C37);
+
+border-radius:30px;
+
+box-shadow:0 30px 80px rgba(0,0,0,.35);
+
+}
+
+.dp-offer h2{
+
+font-size:46px;
+
+margin-bottom:25px;
+
+}
+
+.dp-price{
+
+font-size:74px;
+
+font-weight:900;
+
+margin:25px 0;
+
+color:#fff;
+
+}
+
+.dp-offer p{
+
+font-size:22px;
+
+margin-bottom:40px;
+
+color:#DDE8F5;
+
+}
+
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.dp-hero h1{
+
+font-size:40px;
+
+}
+
+.dp-hero p{
+
+font-size:18px;
+
+}
+
+.dp-price{
+
+font-size:55px;
+
+}
+
+.dp-benefits{
+
+padding:35px;
+
+}
+
+}
+
+/*==============================
+      JEROME-PINEAU.FR
+      DARK & CLEAR UI 2026
+==============================*/
+
+:root{
+
+/* Background */
+
+--bg:#07121f;
+--bg-light:#0c1b2d;
+--bg-card:#102338;
+--bg-hover:#15314c;
+
+/* Couleurs */
+
+--primary:#0A84FF;
+--secondary:#00C8FF;
+--accent:#4FD1FF;
+
+/* Texte */
+
+--white:#ffffff;
+--text:#E8EEF8;
+--muted:#A8B6C7;
+
+/* Bordures */
+
+--border:rgba(255,255,255,.08);
+
+/* Ombres */
+
+--shadow:
+0 15px 45px rgba(0,0,0,.35);
+
+--shadow-hover:
+0 20px 60px rgba(0,132,255,.35);
+
+/* Dégradés */
+
+--gradient:
+linear-gradient(135deg,#00B7FF,#005CFF);
+
+--gradient-dark:
+linear-gradient(145deg,#07121f,#0c2038);
+
+}
