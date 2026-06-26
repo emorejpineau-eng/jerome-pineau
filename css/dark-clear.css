@@ -1,0 +1,80 @@
+body{
+    background:#050816;
+    color:white;
+    transition:0.3s;
+}
+
+body.light-mode{
+    background:#f8fafc;
+    color:#111827;
+}
+
+body.light-mode .box{
+    background:#ffffff;
+    color:#111827;
+    border:1px solid #dbeafe;
+}
+
+body.light-mode .box p{
+    color:#374151;
+}
+
+body.light-mode .box h1{
+    color:#2563eb;
+}
+
+body.light-mode .form{
+    background:#ffffff;
+    color:#111827;
+    border:1px solid #dbeafe;
+}
+
+body.light-mode .form h2{
+    color:#2563eb;
+}
+
+body.light-mode .form input,
+body.light-mode .form textarea{
+    background:#f8fafc;
+    color:#111827;
+    border:1px solid #cbd5e1;
+}
+
+body.light-mode .form input::placeholder,
+body.light-mode .form textarea::placeholder{
+    color:#6b7280;
+}
+
+/* TARIFS MODE CLAIR */
+
+body.light-mode .card{
+    background:#ffffff;
+    color:#111827;
+
+    border:1px solid #dbeafe;
+
+    box-shadow:
+        0 5px 20px rgba(0,0,0,.05);
+}
+
+body.light-mode .card h2{
+    color:#2563eb;
+}
+
+body.light-mode .card p,
+body.light-mode .card li{
+    color:#374151;
+}
+
+body.light-mode .price{
+    color:#111827;
+}
+
+body.light-mode .recommended{
+    border:2px solid #2563eb;
+}
+
+body.light-mode .badge{
+    background:#2563eb;
+    color:white;
+}
